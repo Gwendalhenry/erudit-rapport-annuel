@@ -1,0 +1,18 @@
+#cover {
+  padding: 4vw;
+  min-height: 100vh;
+  background: $pink url('../img/patterns/02.svg') bottom right no-repeat;
+  background-size: 80vw;
+
+  h1 {
+
+  }
+
+  + div svg {
+    width: 100%;
+
+    path {
+      fill: $pink;
+    }
+  }
+}

@@ -6,9 +6,13 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+  "vendors/normalize",
+
   "base/fonts",
   "base/typescale",
   "base/palette",
   "base/spacing",
-  "base/typography"
+  "base/typography",
+
+  "section/cover"
 ;

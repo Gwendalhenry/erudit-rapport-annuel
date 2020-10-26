@@ -1,7 +1,5 @@
 // General typography rules
 
-$gutter:  4vw;
-
 html {
   scroll-behavior: smooth;
   font-size: 20px;
@@ -12,12 +10,13 @@ html {
 }
 
 body {
-  padding: $gutter;
+  background-color: $ecru;
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
   font-family: 'Maax-Regular', sans-serif;
+  color: $black;
 }
 
 h1, h2, h3, h4, h5, h6 {

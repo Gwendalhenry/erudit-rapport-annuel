@@ -10,10 +10,11 @@
     <main>
 
       <header id="cover">
-        <div class="container">
-          <h1>Rapport annuel <br>{{ site.subtitle[page.lang] }}</h1>
-        </div>
+        <h1>Rapport annuel <br>{{ site.subtitle[page.lang] }}</h1>
       </header>
+      <div style="overflow: hidden;">
+        {% include svg/divider2.svg %}
+      </div>
 
       {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
       {% for section in sections %}
