@@ -1,0 +1,14 @@
+/**
+* Cover page / title section
+*/
+#couverture {
+
+  h1 {
+    color: #fff;
+    top: 15vh;
+    position: relative;
+    width: 75vw;
+    @extend .text-lg;
+  }
+
+}

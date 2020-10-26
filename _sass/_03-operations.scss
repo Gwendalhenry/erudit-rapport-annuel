@@ -1,0 +1,212 @@
+/**
+* Opérations section (2)
+*/
+#operations {
+  h2 {
+    color: #fff;
+    margin-top: 30px;
+  }
+
+  h3 {
+    @extend .text-md;
+  }
+
+  h4 {
+    clear: both;
+    @extend .col-xs-12;
+  }
+
+  p {
+    color: #fff;
+    @extend .col-md-8;
+  }
+
+  a {
+    @include hover-link(#fff);
+  }
+
+  .intro {
+    @extend .col-sm-8;
+    @extend .col-md-6;
+  }
+
+  // Nouvelles revues sub-section
+  #nouvelles-revues {
+    @extend .text-sm;
+
+    + p {
+      @extend .col-sm-10;
+      @extend .col-md-7;
+
+      + ul {
+        @extend .col-xs-12;
+
+        h4 {
+          border: none;
+          @extend .text-xs;
+          @extend .col-sm-5;
+          @extend .col-md-3;
+          padding-left: 0;
+
+          a {
+            color: #fff;
+
+            &:before {
+              content: '-> ';
+            }
+          }
+
+        }
+
+        > li {
+          display: block;
+          clear: both;
+          border-top: 1px solid #fff;
+          padding-top: 10px;
+
+          > ul li {
+            color: #fff;
+
+            &:nth-child(1) {
+              @extend .col-sm-5;
+              @extend .col-md-4;
+              padding-left: 0;
+              margin-bottom: 10px;
+
+              @media (max-width: $screen-xs-max) {
+                clear: left;
+              }
+
+            }
+
+            &:nth-child(2) {
+              @extend .col-sm-12;
+              @extend .col-md-5;
+              margin-bottom: 20px;
+              padding-left: 0;
+
+              @media (max-width: $screen-xs-max) {
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Édition numérique, communication sub-sections
+  #edition-numerique, #communication {
+    @extend .text-sm;
+    @extend .col-xs-12;
+
+    + dl {
+      clear: both;
+
+      dt {
+        color: #fff;
+        line-height: 1.5;
+        margin-bottom: 10px;
+        @extend .col-sm-4;
+      }
+
+      dd {
+        @extend .col-sm-8;
+        padding-right: 25%;
+        color: #fff;
+        margin-bottom: 50px;
+
+        @media (max-width: $screen-sm-max) {
+          padding-right: 0;
+        }
+      }
+
+      li:before {
+        content: '– ';
+      }
+    }
+  }
+
+  // Présentations sub-section
+  .presentations + ul {
+    margin-bottom: 35px;
+    @extend .col-xs-12;
+
+    > li {
+      @extend .col-sm-6;
+      @extend .col-lg-12;
+      margin-left: -15px;
+
+      @media (min-width: $screen-sm-min) and (max-width: $screen-md-max) {
+
+        &:nth-child(2n+1) {
+          clear: both;
+        }
+
+      }
+
+      h5 {
+        color: #fff;
+        @extend .col-md-3;
+        @extend .text-xs;
+        padding: 15px 0 0 0;
+        border-top: 1px solid #fff;
+        clear: both;
+      }
+
+      > ul {
+
+        li {
+          @extend .text-xs;
+          border-top: 1px solid #fff;
+
+          @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
+            border: 0;
+          }
+
+          &:nth-child(odd) {
+            @extend .col-md-3;
+            padding: 15px 10px 15px 0;
+            color: #fff;
+
+            @media (max-width: $screen-sm-max) {
+              padding: 0;
+            }
+
+            &:not(:nth-child(1)) {
+              @extend .col-md-offset-3;
+              clear: left;
+              border-color: #fff;
+            }
+
+          }
+
+          &:nth-child(even) {
+            @extend .col-md-6;
+            padding: 15px 0;
+            color: #fff;
+
+            @media (max-width: $screen-sm-max) {
+              padding-top: 5px;
+              margin-bottom: 20px;
+            }
+
+            &:not(:nth-child(2)) {
+              border-color: #fff;
+            }
+
+          }
+
+          @media (max-width: $screen-sm-max) {
+            border: none;
+          }
+
+        }
+
+      }
+
+    }
+
+  }
+
+}

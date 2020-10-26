@@ -1,0 +1,51 @@
+# i18n
+title:
+  fr: "Érudit"
+  en: "Érudit"
+subtitle:
+  fr: "2019–2020"
+  en: "2019–2020"
+tagline:
+    fr: "Cultivez <br/>votre savoir."
+    en: "Cultivate <br/>your knowledge."
+description:
+  fr: La mission d’Érudit est d’assurer la diffusion et la promotion des savoirs et de permettre l’accès aux corpus à des fins de recherche. Érudit favorise une diffusion ouverte.
+  en: Érudit’s mission is to circulate and promote knowledge and provide access to bodies of knowledge to facilitate research.
+index:
+  fr: index.html
+  en: en.html
+toc:
+  fr: "Table des matières"
+  en: "Table of Contents"
+share:
+  fr: "Partager"
+  en: "Share"
+cover_page:
+  fr: "Page couverture"
+  en: "First page"
+about:
+  fr: "À propos d’Érudit"
+  en: "About Érudit"
+about_url:
+  fr: "https://apropos.erudit.org/fr/"
+  en: "https://apropos.erudit.org/en/"
+
+# Social media + contact
+email: info@erudit.org
+twitter_username: eruditorg
+github_username:  erudit
+facebook_username: erudit.org
+
+# Site settings
+url: "http://127.0.0.1:4000"
+# Prod https://www.erudit.org/rapport/2020
+permalink: pretty
+collections:
+  - sections
+
+# Build settings
+markdown: kramdown
+kramdown:
+    auto_ids: false
+sass:
+    style: :compressed

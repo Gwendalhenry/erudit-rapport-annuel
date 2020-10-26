@@ -1,0 +1,86 @@
+/**
+* Grandes réussites section (3)
+*/
+#grandes-reussites {
+  counter-reset: achievements;
+
+  h2 {
+    margin: 0 0 30px 0;
+  }
+
+  h3 {
+    @extend .text-lg;
+    @extend .col-sm-10;
+    @extend .col-md-8;
+
+    &::before {
+      counter-increment: achievements;
+      content: counter(achievements);
+      display: block;
+      @extend .text-xl;
+    }
+
+  }
+
+  a {
+    @include hover-link($coral);
+  }
+
+  .intro {
+    @extend .col-sm-10;
+    @extend .col-md-8;
+    clear: both;
+  }
+
+  ul {
+    list-style-type: disc;
+    margin: 0 0 15px 15px;
+  }
+
+  ol {
+    counter-reset: highlights;
+
+    > li::before {
+      counter-increment: highlights;
+      content: counter(highlights, upper-alpha) " — ";
+      display: block;
+      @extend .text-sm;
+    }
+
+    h4 {
+      @extend .text-sm;
+      margin-bottom: 30px;
+    }
+
+    > li:nth-child(1),
+    > li:nth-child(2) {
+      @extend .col-sm-6;
+      margin-top: 35px;
+      padding-right: 15%;
+
+      li {
+        margin-bottom: 15px;
+      }
+
+    }
+
+  }
+
+  #ojs {
+    @extend .col-sm-8;
+    margin-top: 50px;
+    clear: both;
+
+    > ul {
+
+      > li {
+        margin-bottom: 30px;
+        margin-top: 20px;
+        @extend .text-xs;
+      }
+
+    }
+
+  }
+
+}

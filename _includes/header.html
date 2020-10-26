@@ -1,0 +1,49 @@
+<header>
+
+  <nav class="navbar" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+    <div class="container">
+      <div class="navbar-header navbar-nav">
+        <a href="{{ site.url }}" title="erudit.org">{% include logo-erudit.svg %}</a>
+      </div>
+
+      <ul class="nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle toc-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <h2 class="sr-only">{{ site.toc[page.lang] }}</h2>
+          <ul class="dropdown-menu">
+            <li>
+              <a href="#couverture">{{ site.cover_page[page.lang] }}</a>
+            </li>
+            {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
+            {% for section in sections %}
+            <li>
+              <a href="#{{ section.ref }}">{{ section.title }}</a>
+            </li>
+            {% endfor %}
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">{{ site.share[page.lang] }}</li>
+            <li class="menu-share">
+              <a href="http://twitter.com/share?text={{ site.title[page.lang] }} – {{ site.subtitle[page.lang] }}&url={{ site.url }}" target="_blank">Twitter</a>
+            </li>
+            <li class="menu-share">
+              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}" target="_blank">Facebook</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="switch-lang">
+        <li>
+          {% for page in site.pages %}
+          <a href="{{ page.url | prepend: site.url }}">{{ page.lang }}</a>
+          {% endfor %}
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+</header>

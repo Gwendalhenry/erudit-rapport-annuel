@@ -1,0 +1,194 @@
+/**
+* Site header / navbar
+*/
+.navbar {
+  width: 100%;
+  background-color: transparent;
+  z-index: 10;
+  position: fixed;
+
+  h1 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 50px;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+
+    @media (max-width: $screen-xs-max) {
+      display: none;
+    }
+
+  }
+
+  .navbar-header {
+
+    a {
+      margin-top: 10px;
+      display: block;
+      height: 33px;
+    }
+
+    path, rect {
+      fill: #fff;
+    }
+
+  }
+
+  .nav {
+    float: right;
+  }
+
+  &.affix {
+    background-color: #fff;
+    -webkit-transition: all 0.25s ease-in;
+    transition: all 0.25s ease-in;
+    @include box-shadow(0 3px 5px rgba(0, 0, 0, .1));
+
+    h1 {
+      color: #000;
+    }
+
+    path, rect {
+      fill: $coral;
+    }
+
+  }
+
+  .dropdown {
+    display: block;
+    height: 28px;
+    width: 28px;
+  }
+
+  .switch-lang {
+    float: right;
+    margin-right: 20px;
+
+    a {
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 50px;
+      padding: 0 16px;
+      color: #000;
+      @include transition(.3s ease-in-out);
+
+      &:hover, &:focus, &:active {
+        color: #fff;
+        background-color: $coral;
+      }
+    }
+  }
+
+  .toc-menu {
+    cursor: pointer;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 0;
+    display: block;
+    width: 30px;
+    height: 50px;
+
+    > .bar {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 28px;
+      background: #000;
+      opacity: 1;
+      left: 0;
+      @include transform-origin(left center);
+      @include transition(.3s ease-in-out);
+
+      &:nth-child(1) {
+        left: 0;
+        top: 15px;
+        @include rotate(0deg);
+      }
+      &:nth-child(2) {
+        top: 25px;
+        width: 28px;
+        opacity: 1;
+        @include rotate(0deg);
+      }
+      &:nth-child(3) {
+        left: 0;
+        top: 35px;
+        @include rotate(0deg);
+      }
+
+    }
+
+  }
+
+  .dropdown-menu {
+    background-color: $coral;
+    font-size: 24px;
+    top: 50px;
+    border: 1px solid #fff;
+    padding: 0;
+    width: 286px;
+
+    li a {
+      padding: 15px;
+
+      &:hover, &:focus, &:active {
+        background: #fff;
+        color: $coral;
+      }
+
+    }
+
+    li.menu-share {
+      float: left;
+      width: 50%;
+
+      a {
+        text-align: center;
+      }
+
+    }
+
+  }
+
+  .dropdown-header {
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+}
+
+
+/**
+* General section styles
+*/
+section {
+
+  h2 {
+    @extend .text-lg;
+  }
+
+  h3 {
+    @extend .col-xs-12;
+  }
+
+  hr {
+    width: 100%;
+    margin: 2em 0;
+    border-top: 1px solid transparent;
+  }
+
+}
+
+// Remove gaps between sections on mobile and tablet devices
+header,
+section,
+footer {
+  margin-top: -1px;
+  overflow-x: hidden;
+}

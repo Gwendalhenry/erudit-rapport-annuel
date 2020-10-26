@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}">
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <main>
+
+      <header id="cover">
+        <div class="container">
+          <div>{% include logo-erudit.svg %}</div>
+          <h1>Rapport annuel <br>{{ site.subtitle[page.lang] }}</h1>
+        </div>
+      </header>
+
+      {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
+      {% for section in sections %}
+      <section id="{{ section.ref }}">
+        <div class="container">
+          <div class="visible-print-block print-logo-header">{% include logo-erudit.svg %}</div>
+          <h2>
+            {{ section.title }}
+          </h2>
+          <div class="row">
+            {{ section.content }}
+          </div>
+        </div>
+      </section>
+      {% endfor %}
+
+    </main>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
