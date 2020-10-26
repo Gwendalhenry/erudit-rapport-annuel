@@ -13,8 +13,6 @@ order: 02
   * dont 22 revues qui ont rejoint la plateforme
 * 6 corpus de données disponibles à des fins de fouille textuelle via notre dépôt de recherche.
 
----
-
 ### Libre accès
 
 * + de 90% du corpus est accessible en libre accès.
@@ -22,21 +20,15 @@ order: 02
 * 95 bibliothèques universitaires
 se sont engagées à contribuer au Partenariat pour le libre accès.
 
----
-
 ### Diffusion
 
 * 27,4 millions de pages consultées.
 * 4,8 millions d’utilisateurs uniques, répartis dans plus de 85 pays.
 
----
-
 ### Ententes de partenariats et d’abonnements
 
 * 1 200 bibliothèques ont une entente d’abonnement ou de partenariat.
 * 1,2 million $CAD reversés aux revues. Ces revenus, qui soutiennent les activités éditoriales des revues, proviennent d'ententes avec plusieurs consortiums de bibliothèques dans le cadre du Partenariat pour le libre accès ou de la commercialisation d’abonnements aux institutions.
-
----
 
 ### Équipe
 

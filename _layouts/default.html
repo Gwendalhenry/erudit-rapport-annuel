@@ -11,7 +11,6 @@
 
       <header id="cover">
         <div class="container">
-          <div>{% include logo-erudit.svg %}</div>
           <h1>Rapport annuel <br>{{ site.subtitle[page.lang] }}</h1>
         </div>
       </header>
@@ -20,7 +19,6 @@
       {% for section in sections %}
       <section id="{{ section.ref }}">
         <div class="container">
-          <div class="visible-print-block print-logo-header">{% include logo-erudit.svg %}</div>
           <h2>
             {{ section.title }}
           </h2>

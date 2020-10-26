@@ -1,0 +1,75 @@
+// General typography rules
+
+$gutter:  4vw;
+
+html {
+  scroll-behavior: smooth;
+  font-size: 20px;
+
+  @media (min-width: 1024px) {
+    font-size: 24px;
+  }
+}
+
+body {
+  padding: 0 $gutter;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-family: 'Maax-Regular', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.05;
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0;
+  letter-spacing: -0.03em;
+  @include typescale-01;
+}
+
+h2 {
+  @include typescale-01;
+}
+
+h3 {
+  @include typescale-02;
+}
+
+h4 {
+  @include typescale-03;
+}
+
+h5 {
+  @include typescale-05;
+}
+
+h6 {
+  @include typescale-05;
+}
+
+small {
+  @include typescale-06;
+}
+
+p {
+  margin-bottom: $spacing-04;
+
+  &:last-child {
+    margin: 0;
+  }
+}
+
+ul, ol {
+
+  ul, ol {
+    margin-left: $spacing-03;
+  }
+}
+
+strong, b {
+  font-weight: 900;
+}

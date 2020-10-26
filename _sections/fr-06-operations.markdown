@@ -125,42 +125,42 @@ Le prix Denis-Szabo est décerné tous les deux ans à l’auteur d’un article
 
 - Avril
   - Telford, Royaume-Uni
-  - UKSG 2019
+    - UKSG 2019
   - Montréal, Canada
-  - Table ronde “Publier ou ne pas exister”
+    - Table ronde “Publier ou ne pas exister”
 - Mai
   - Cambridge, Royaume-Uni
-  - JATS-Con 2019
+    - JATS-Con 2019
   - Cleveland, États-Unis
-  - PyCon US
+    - PyCon US
   - Vancouver, Canada
-  - PKP Sprint 2019
+    - PKP Sprint 2019
   - Vancouver, Canada
-  - CARL Advancing Open
+    - CARL Advancing Open
   - Vancouver, Canada
-  - Library Publishing Forum
+    - Library Publishing Forum
   - Vancouver, Canada
-  - Association canadienne des revues savantes, Congrès annuel des sciences humaines
+    - Association canadienne des revues savantes, Congrès annuel des sciences humaines
 - Juin
   - Marseille, France
-  - International Conference on Electronic Publishing (ElPub)
+    - International Conference on Electronic Publishing (ElPub)
 - Septembre
   - Copenhague, Danemark
-  - OASPA Conference on Open Access Scholarly Publishing
+    - OASPA Conference on Open Access Scholarly Publishing
 - Octobre
   - Montréal, Canada
-  - Congrès des professionnel.les de l'information
+    - Congrès des professionnel.les de l'information
   - Montréal, Canada
-  - Présentation dans le cadre du Cours Édition de périodiques, Université de Sherbrooke
+    - Présentation dans le cadre du Cours Édition de périodiques, Université de Sherbrooke
 - Novembre
   - Barcelone, Espagne
-  - PKP Conference
+    - PKP Conference
 
 ##### 2020
 
 - Février
   - Baltimore, États-Unis
-  - NISO Plus Conference 2020
+    - NISO Plus Conference 2020
 - Mars
   - En ligne
-  - Réunion de bibliothèques membres de l'Association des bibliothèques de recherche du Canada
+    - Réunion de bibliothèques membres de l'Association des bibliothèques de recherche du Canada

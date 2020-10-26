@@ -67,29 +67,3 @@
   font-weight: bold;
   font-style: italic;
 }
-
-/**
- * Maax Mono
- */
-
-@font-face {
-  font-family: 'Maax-Mono';
-  src: url('../fonts/Sans-Mono.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/Sans-Mono.woff') format('woff'),
-       url('../fonts/Sans-Mono.woff2') format('woff2'),
-       url('../fonts/Sans-Mono.ttf')  format('truetype'),
-       url('../fonts/Sans-Mono.svg') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Maax-MonoItalic';
-  src: url('../fonts/Sans-MonoItalic.eot?#iefix') format('embedded-opentype'),
-       url('../fonts/Sans-MonoItalic.woff') format('woff'),
-       url('../fonts/Sans-MonoItalic.woff2') format('woff2'),
-       url('../fonts/Sans-MonoItalic.ttf')  format('truetype'),
-       url('../fonts/Sans-MonoItalic.svg') format('svg');
-  font-weight: normal;
-  font-style: italic;
-}
