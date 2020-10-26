@@ -36,7 +36,7 @@ Dalhousie French Studies](https://www.erudit.org/fr/revues/clg)
 * [Voix plurielles](https://www.erudit.org/fr/revues/voixpl/)
 
 
-Il est à noter que 16 de ces nouvelles revues utilisent la suite de logiciels libres Open Journal Systems pour produire leur version numérique et bénéficient d’une diffusion sur la plateforme erudit.org grâce à une passerelle pour les données. À cela s’ajoutent 6 projets de numérisation rétrospective, dont la diffusion de l’ensemble des numéros de la revue [Surfaces](https://www.iubenda.com/privacy-policy/79766356), qui fut l’une des premières revues scientifiques numériques (1991-1999).
+Il est à noter que 16 de ces nouvelles revues utilisent la suite de logiciels libres Open Journal Systems pour produire leur version numérique et bénéficient d’une diffusion sur la plateforme erudit.org grâce à une passerelle pour les données. À cela s’ajoutent 6 projets de numérisation rétrospective, dont la diffusion de l’ensemble des numéros de la revue [Surfaces](https://www.erudit.org/fr/revues/surfaces/), qui fut l’une des premières revues scientifiques numériques (1991-1999).
 
 Ce travail de développement des collections, associé à la mise en place de la passerelle technologique entre le logiciel Open Journal system et la plateforme erudit.org, a favorisé l’arrivée de nouveaux titres : nous comptons ainsi une hausse de 30% des revues nouvellement diffusées sur la plateforme erudit.org depuis 2017.
 
