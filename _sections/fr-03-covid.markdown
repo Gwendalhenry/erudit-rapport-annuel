@@ -3,6 +3,7 @@ title:  "COVID-19"
 ref: covid-19
 lang: fr
 order: 03
+bg_pattern: 5
 ---
 
 L’accès numérique à des ressources scientifiques et culturelles est primordial en tout temps pour les étudiants, chercheurs et citoyens, mais de façon encore plus critique en période de confinement. Les recherches nécessaires pour endiguer cette pandémie et éviter qu’elle ne se répète ne s’appuient pas que sur la virologie et l’épidémiologie. L'ensemble des disciplines des sciences humaines et sociales, qu’il s’agisse d’histoire, de sociologie, de sciences politiques, d’économie, d’arts ou de littérature, nous permet de mettre en perspective la situation que nous vivons.

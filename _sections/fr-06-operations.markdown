@@ -4,6 +4,7 @@ ref: operations
 lang: fr
 order: 06
 bg_colour: "#FFB600"
+bg_pattern: 6
 divider: 1
 ---
 

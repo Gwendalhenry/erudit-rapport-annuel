@@ -3,6 +3,7 @@ title:  "Développements technologiques"
 ref: technologies
 lang: fr
 order: 07
+bg_pattern: 7
 ---
 
 ### Ententes d’agrégation et d’indexation
