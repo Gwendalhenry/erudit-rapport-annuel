@@ -1,0 +1,44 @@
+#consolidation-strategique {
+  background-image: url('../img/patterns/04.svg');
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 90%;
+  text-align: center;
+
+  p, ul, ol {
+    width: 100%;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  table {
+    margin-bottom: $spacing-04;
+    text-align: left;
+    border-collapse: collapse;
+  }
+
+  tr:not(:last-child) {
+    border-bottom: 5px solid;
+  }
+
+  td {
+    padding: $spacing-04 0;
+    vertical-align: top;
+
+    &:first-child {
+      width: 50%;
+      font-weight: 700;
+    }
+  }
+
+  .content {
+
+    @media (min-width: 1024px) {
+      padding: $spacing-03 $spacing-06 $spacing-06 $spacing-06;
+      width: 66.666667%;
+      margin: 0 auto;
+    }
+  }
+}
