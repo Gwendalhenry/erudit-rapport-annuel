@@ -50,3 +50,7 @@ kramdown:
     auto_ids: false
 sass:
     style: :compressed
+plugins:
+  - jekyll-target-blank
+target-blank:
+  noreferrer: false
