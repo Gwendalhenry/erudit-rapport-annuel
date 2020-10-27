@@ -3,6 +3,10 @@
 .section {
   padding: $spacing-05 4vw;
 
+  h2 {
+    margin-top: 0;
+  }
+
   ul, ol {
     @include unstyled-list;
   }
