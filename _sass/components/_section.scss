@@ -37,4 +37,11 @@
       );
     }
   }
+
+  &--with-bg-pattern {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    text-align: center;
+  }
 }

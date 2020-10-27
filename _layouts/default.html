@@ -30,9 +30,12 @@
       {% endif %}
 
       <section
-        class="section"
+        class="section{% if section.bg_pattern %} section--with-bg-pattern{% endif %}"
         id="{{ section.ref }}"
-        {% if section.bg_colour %}style="background-color: {{ section.bg_colour }};"{% endif %}
+        style="
+          {% if section.bg_colour %}background-color: {{ section.bg_colour }};{% endif %}
+          {% if section.bg_pattern %}background-image: url('../img/patterns/{{ section.bg_pattern }}.svg');{% endif %}
+        "
       >
         <h2>
           {{ section.title }}

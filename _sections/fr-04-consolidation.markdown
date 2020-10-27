@@ -4,6 +4,7 @@ ref: consolidation-strategique
 lang: fr
 order: 04
 bg_colour: "#FF7101"
+bg_pattern: 4
 divider: 2
 ---
 

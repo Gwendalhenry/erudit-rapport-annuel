@@ -3,6 +3,7 @@ title:  "Présentation"
 ref: presentation
 lang: fr
 order: 01
+bg_pattern: 1
 ---
 
 ### Mot de Frédéric Bouchard
