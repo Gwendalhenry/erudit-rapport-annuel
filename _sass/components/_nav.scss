@@ -1,0 +1,44 @@
+// table of contents / nav
+
+.nav {
+  padding: $spacing-04 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: $yellow;
+  text-align: right;
+
+  h2 {
+    margin: 0 $spacing-03;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  ol, ul {
+    @include unstyled-list;
+    margin: $spacing-03;
+  }
+
+  a {
+    display: block;
+    transition: 0.3s;
+
+    @media (min-width: 768px) {
+      @include typescale-03;
+    }
+  }
+
+  &__close {
+    display: block;
+    position: absolute;
+    top: $spacing-04;
+    left: $spacing-04;
+    line-height: 0;
+    @include typescale-02;
+  }
+}

@@ -3,27 +3,4 @@
 a {
   color: $black;
   text-decoration: none;
-
-  // Highlighter text styles
-  margin: 0 -0.4em;
-  padding: 0.1em 0.4em;
-  border-radius: 0.8em 0.3em;
-  background: transparent;
-  background-image: linear-gradient(
-    to right,
-    rgba($yellow, 0.1),
-    rgba($yellow, 0.7) 4%,
-    rgba($yellow, 0.3)
-  );
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-
-  &:hover, &:active, &:focus {
-    background-image: linear-gradient(
-      to right,
-      rgba($orange, 0.1),
-      rgba($orange, 0.7) 4%,
-      rgba($orange, 0.3)
-    );
-  }
 }

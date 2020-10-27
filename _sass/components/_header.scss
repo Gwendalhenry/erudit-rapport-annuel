@@ -1,0 +1,28 @@
+// page header nav
+
+.header {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  height: 33px;  // height of logo
+  width: 100%;
+  background-color: $ecru;
+  transition: top 0.3s;
+
+  &__logo {
+    padding-left: 4vw;
+    display: inline-block;
+  }
+
+  &__menu {
+    padding-right: 4vw;
+    display: inline-block;
+    @include unstyled-list;
+
+    li {
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,7 +1,7 @@
 # i18n
 title:
-  fr: "Érudit"
-  en: "Érudit"
+  fr: "Rapport annuel"
+  en: "Annual report"
 subtitle:
   fr: "2019–2020"
   en: "2019–2020"
@@ -16,7 +16,7 @@ index:
   en: en.html
 toc:
   fr: "Table des matières"
-  en: "Table of Contents"
+  en: "Table of contents"
 share:
   fr: "Partager"
   en: "Share"
@@ -37,7 +37,8 @@ github_username:  erudit
 facebook_username: erudit.org
 
 # Site settings
-url: "https://affectionate-banach-c5ccf9.netlify.app"
+url: "https://affectionate-banach-c5ccf9.netlify.app/"
+# Test
 # Prod https://www.erudit.org/rapport/2020
 permalink: pretty
 collections:

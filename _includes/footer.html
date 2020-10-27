@@ -41,3 +41,27 @@
   </div>
 
 </footer>
+
+<script>
+  // Hide header menu on down scroll; display on scroll up
+  var prevScrollPos = window.pageYOffset;
+  window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+
+    if (prevScrollPos > currentScrollPos) {
+      document.getElementById("header").style.top = "0";
+    } else {
+      document.getElementById("header").style.top = "-63px";
+    }
+    prevScrollPos = currentScrollPos;
+  }
+
+  // Open ToC / menu on the side
+  function openNav() {
+    document.getElementById("nav").style.width = "50vw";
+  }
+
+  function closeNav() {
+    document.getElementById("nav").style.width = "0";
+  }
+</script>

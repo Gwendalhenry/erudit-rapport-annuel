@@ -3,14 +3,14 @@
 
   {% include head.html %}
 
-  <body>
+  <body id="body">
 
     {% include header.html %}
 
-    <main>
+    <main id="main">
 
       <header id="cover">
-        <h1>Rapport annuel <br>{{ site.subtitle[page.lang] }}</h1>
+        <h1>{{ site.title[page.lang] }} <br>{{ site.subtitle[page.lang] }}</h1>
       </header>
       <div style="overflow: hidden;">
         {% include svg/divider2.svg %}

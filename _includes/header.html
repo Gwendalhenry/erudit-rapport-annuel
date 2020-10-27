@@ -1,58 +1,48 @@
-<header style="padding: 4vw;">
+<header class="header" id="header">
 
-  <nav class="navbar">
-    <div class="container">
-      <div class="navbar-header navbar-nav">
-        <a href="{{ site.url }}" title="erudit.org">{% include logo-erudit.svg %}</a>
-      </div>
+  <a href="https://www.erudit.org/" title="erudit.org" class="header__logo">
+    {% include logo-erudit.svg %}
+  </a>
 
-      <ul class="nav navbar-right">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle toc-menu" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <h2 class="sr-only">{{ site.toc[page.lang] }}</h2>
-          <ul class="dropdown-menu">
-            <li>
-              <a href="#couverture">{{ site.cover_page[page.lang] }}</a>
-            </li>
-            {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
-            {% for section in sections %}
-            <li>
-              <a href="#{{ section.ref }}">{{ section.title }}</a>
-            </li>
-            {% endfor %}
-            <li role="separator" class="divider"></li>
-            <li class="dropdown-header">{{ site.share[page.lang] }}</li>
-            <li class="menu-share">
-              <a href="http://twitter.com/share?text={{ site.title[page.lang] }} – {{ site.subtitle[page.lang] }}&url={{ site.url }}" target="_blank">Twitter</a>
-            </li>
-            <li class="menu-share">
-              <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}" target="_blank">Facebook</a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-
-      <ul class="switch-lang">
-        <li>
-          {% for page in site.pages %}
-          <a href="{{ page.url | prepend: site.url }}">{{ page.lang }}</a>
-          {% endfor %}
-        </li>
-      </ul>
-    </div>
-  </nav>
-
+  <ul class="header__menu">
+    <li>
+      <a href="{{ site.url }}" role="button">FR</a>
+    </li>
+    <li>
+      <a href="{{ site.url }}/en" role="button">EN</a>
+    </li>
+    <li onclick="openNav()" class="header__menu-btn" role="button">{{ site.toc[page.lang] }}</li>
+  </ul>
 </header>
 
-<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
-  <defs>
-    <filter id="marker-shape">
-      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
-      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
-    </filter>
-  </defs>
-</svg>
+<nav class="nav" id="nav">
+  <a href="javascript:void(0)" onclick="closeNav()" class="nav__close">&times;</a>
+  
+  <h2>{{ site.toc[page.lang] }}</h2>
+  <ol>
+    <li>
+      <a href="#cover">{{ site.cover_page[page.lang] }}</a>
+    </li>
+    {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
+    {% for section in sections %}
+    <li>
+      <a href="#{{ section.ref }}">{{ section.title }}</a>
+    </li>
+    {% endfor %}
+  </ol>
+
+  <h2>{{ site.share[page.lang] }}</h2>
+  <ul>
+    <li>
+      <a href="http://twitter.com/share?text={{ site.title[page.lang] }} – {{ site.subtitle[page.lang] }}&url={{ site.url }}">
+        Twitter
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}">
+        Facebook
+      </a>
+    </li>
+  </ul>
+
+</nav>
