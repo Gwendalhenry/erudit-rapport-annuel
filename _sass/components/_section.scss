@@ -3,6 +3,16 @@
 .section {
   padding: $spacing-05 4vw;
 
+  ul, ol {
+    @include unstyled-list;
+  }
+
+  p, ul, ol {
+    @media (min-width: 1024px) {
+      width: 66.666667%;
+    }
+  }
+
   // Highlighter link styles
   a {
     margin: 0 -0.4em;
