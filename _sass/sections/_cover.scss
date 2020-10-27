@@ -1,8 +1,13 @@
 #cover {
-  padding: 8vw 4vw;
+  padding: 100px 4vw;
   min-height: 100vh;
-  background: $pink url('../img/patterns/02.svg') bottom right no-repeat;
-  background-size: 80vw;
+  background: $pink url('../img/patterns/02.svg') left no-repeat;
+  background-size: cover;
+
+  @media (min-width: 768px) {
+    background-size: 80vw;
+    background-position: bottom right;
+  }
 
   h1 {
 

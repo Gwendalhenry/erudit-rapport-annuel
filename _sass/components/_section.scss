@@ -1,9 +1,10 @@
 // sections
 
-section {
+.section {
+  padding: $spacing-05 4vw;
 
+  // Highlighter link styles
   a {
-    // Highlighter text styles
     margin: 0 -0.4em;
     padding: 0.1em 0.4em;
     border-radius: 0.8em 0.3em;
@@ -25,5 +26,43 @@ section {
         rgba($orange, 0.3)
       );
     }
+  }
+
+  &--1 {
+    background-color: $ecru;
+  }
+
+  &--2 {
+    background-color: $blue;
+    color: #FFF;
+  }
+
+  &--3 {
+    background-color: $ecru;
+  }
+
+  &--4 {
+    background-color: $red;
+  }
+
+  &--5 {
+    background-color: $ecru;
+  }
+
+  &--6 {
+    background-color: $yellow;
+  }
+
+  &--7 {
+    background-color: $ecru;
+  }
+
+  &--08 {
+    background-color: $black;
+    color: #FFF;
+  }
+
+  &--09 {
+    background-color: $mint;
   }
 }

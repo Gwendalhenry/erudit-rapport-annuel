@@ -37,8 +37,8 @@ github_username:  erudit
 facebook_username: erudit.org
 
 # Site settings
-url: "https://affectionate-banach-c5ccf9.netlify.app/"
-# Test
+url: "http://localhost:4000"
+# Test https://affectionate-banach-c5ccf9.netlify.app/
 # Prod https://www.erudit.org/rapport/2020
 permalink: pretty
 collections:

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-between;
   position: fixed;
-  height: 33px;  // height of logo
+  height: 33px;  // logo height
   width: 100%;
   background-color: $ecru;
   transition: top 0.3s;
@@ -23,6 +23,16 @@
     li {
       display: inline-block;
       cursor: pointer;
+      line-height: 33px; // logo height
+
+      // TOC link
+      &:last-child {
+        font-weight: 600;
+      }
+
+      &:not(:last-child) {
+        margin-right: $spacing-03;
+      }
     }
   }
 }

@@ -10,7 +10,7 @@
     <main id="main">
 
       <header id="cover">
-        <h1>{{ site.title[page.lang] }} <br>{{ site.subtitle[page.lang] }}</h1>
+        <h1>{{ site.title[page.lang] }} <br/><br/>{{ site.subtitle[page.lang] }}</h1>
       </header>
       <div style="overflow: hidden;">
         {% include svg/divider2.svg %}
@@ -18,14 +18,12 @@
 
       {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
       {% for section in sections %}
-      <section id="{{ section.ref }}">
-        <div class="container">
-          <h2>
-            {{ section.title }}
-          </h2>
-          <div class="row">
-            {{ section.content }}
-          </div>
+      <section class="section section--{{ section.order }}" id="{{ section.ref }}">
+        <h2>
+          {{ section.title }}
+        </h2>
+        <div class="row">
+          {{ section.content }}
         </div>
       </section>
       {% endfor %}

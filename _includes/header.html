@@ -11,13 +11,16 @@
     <li>
       <a href="{{ site.url }}/en" role="button">EN</a>
     </li>
-    <li onclick="openNav()" class="header__menu-btn" role="button">{{ site.toc[page.lang] }}</li>
+    <li onclick="openNav()" class="header__menu-btn" role="button">
+      &#9776;
+      <span class="sr-only">{{ site.toc[page.lang] }}</span>
+    </li>
   </ul>
 </header>
 
 <nav class="nav" id="nav">
   <a href="javascript:void(0)" onclick="closeNav()" class="nav__close">&times;</a>
-  
+
   <h2>{{ site.toc[page.lang] }}</h2>
   <ol>
     <li>

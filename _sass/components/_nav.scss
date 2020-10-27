@@ -21,7 +21,7 @@
 
   ol, ul {
     @include unstyled-list;
-    margin: $spacing-03;
+    margin: $spacing-03 $spacing-03 $spacing-05 $spacing-03;
   }
 
   a {
