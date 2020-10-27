@@ -3,6 +3,8 @@ title:  "Consolidation stratégique"
 ref: consolidation-strategique
 lang: fr
 order: 04
+bg_colour: "#FF7101"
+divider: 2
 ---
 
 Le consortium Érudit a considérablement évolué au cours des dernières années, avec l’arrivée de nouveaux membres dans notre équipe, l’élargissement de notre conseil d’administration, ainsi que le développement de nos activités au Canada et à l’international. Ce contexte de croissance de nos opérations et d’amélioration continue de notre gouvernance demandait à ce que nous entamions un travail sur nos orientations stratégiques. En résulte dans un premier temps une révision des énoncés stratégiques de notre Consortium. Ce travail a été réalisé à l’automne 2019 et à l’hiver 2020 avec l’ensemble de l’équipe et le conseil d’administration, appuyé par l’Université de Montréal.

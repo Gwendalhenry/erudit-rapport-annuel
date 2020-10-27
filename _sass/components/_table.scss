@@ -1,0 +1,14 @@
+table {
+  margin-bottom: $spacing-04;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+tr:not(:last-child) {
+  border-bottom: 5px solid;
+}
+
+td {
+  padding: $spacing-04 0;
+  vertical-align: top;
+}

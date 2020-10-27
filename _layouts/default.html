@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html lang="{{ page.lang }}">
 
@@ -13,12 +17,27 @@
         <h1>{{ site.title[page.lang] }} <br/><br/>{{ site.subtitle[page.lang] }}</h1>
       </header>
       <div style="overflow: hidden;">
-        {% include svg/divider2.svg %}
+        {% include svg/post-divider2.svg %}
       </div>
 
       {% assign sections=site.sections | where:"lang", page.lang | sort: 'order' %}
       {% for section in sections %}
-      <section class="section section--{{ section.order }}" id="{{ section.ref }}">
+
+      {% if section.bg_colour %}
+      <div style="overflow: hidden;">
+        {% if section.divider == 1 %}
+        {% include svg/pre-divider1.svg bg_colour=section.bg_colour %}
+        {% else %}
+        {% include svg/pre-divider2.svg bg_colour=section.bg_colour %}
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <section
+        class="section"
+        id="{{ section.ref }}"
+        {% if section.bg_colour %}style="background-color: {{ section.bg_colour }};"{% endif %}
+      >
         <h2>
           {{ section.title }}
         </h2>
@@ -26,6 +45,17 @@
           {{ section.content }}
         </div>
       </section>
+
+      {% if section.bg_colour %}
+      <div style="overflow: hidden;">
+        {% if section.divider == 1 %}
+        {% include svg/post-divider1.svg bg_colour=section.bg_colour %}
+        {% else %}
+        {% include svg/post-divider2.svg bg_colour=section.bg_colour %}
+        {% endif %}
+      </div>
+      {% endif %}
+
       {% endfor %}
 
     </main>

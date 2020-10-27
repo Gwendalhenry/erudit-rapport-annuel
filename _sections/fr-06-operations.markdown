@@ -3,6 +3,8 @@ title:  "Opérations"
 ref: operations
 lang: fr
 order: 06
+bg_colour: "#FFB600"
+divider: 1
 ---
 
 ### Édition numérique

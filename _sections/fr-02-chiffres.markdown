@@ -1,15 +1,18 @@
 ---
-title:  "L'année en quelques chiffres"
+title:  "L’année en quelques chiffres"
 ref: chiffres
 lang: fr
 order: 02
+bg_colour: "#0460A9"
+divider: 1
 ---
 
 ### Collections
 
 * 209 493 articles de revues disponibles
   * dont 10 299 articles qui ont été mis en ligne cette année
-* 241 revues savantes et culturelles diffusées
+* 241 rev
+divider: 1ues savantes et culturelles diffusées
   * dont 22 revues qui ont rejoint la plateforme
 * 6 corpus de données disponibles à des fins de fouille textuelle via notre dépôt de recherche.
 

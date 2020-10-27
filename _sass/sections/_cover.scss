@@ -13,11 +13,8 @@
 
   }
 
-  + div svg {
-    width: 100%;
-
-    path {
-      fill: $pink;
-    }
+  // SVG divider that follows the cover
+  + div path {
+    fill: $pink;
   }
 }
