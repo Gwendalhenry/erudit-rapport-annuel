@@ -21,4 +21,9 @@
       width: 50%;
     }
   }
+
+  li strong {
+    display: block;
+    @include typescale-03;
+  }
 }

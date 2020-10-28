@@ -55,16 +55,17 @@ Ce travail de développement des collections, associé à la mise en place de la
 Également, plusieurs articles traitant de divers aspects de la crise ont connu une hausse importante de leur consultation durant les premières semaines de la crise de la COVID-19, dont voici quelques exemples.
 
 {:.grid .grid--5-col}
-* [SRAS: 1. Le virus (2003)](https://id.erudit.org/iderudit/007121ar)
-  * + 12 559% de consultations
-* [Elles sont partout… les femmes et la ville en temps d’épidémie, Montréal 1918-1920 (2005)](https://doi.org/10.7202/010973ar)
-  * + 5 271%
-* [La poursuite d’une bonne mort est-elle une utopie? (2007)](https://doi.org/10.7202/017944ar)
-  * + 1205%
-* [Les défis du télétravail à l’égard de la vie privée du télétravailleur (2013)](https://doi.org/10.7202/1017615ar)
-  * + 929%
-* [The Impact of the Epidemic Influenza Canada, 1918-1919 (1977)](https://doi.org/10.7202/030824ar)
-  * + 221%
+* **+ 12 559%**
+  - [SRAS: 1. Le virus (2003)](https://id.erudit.org/iderudit/007121ar)
+* **+ 5 271%**
+  - [Elles sont partout… les femmes et la ville en temps d’épidémie, Montréal 1918-1920 (2005)](https://doi.org/10.7202/010973ar)
+* **+ 1205%**
+  - [La poursuite d’une bonne mort est-elle une utopie? (2007)](https://doi.org/10.7202/017944ar)
+* **+ 929%**
+  - [Les défis du télétravail à l’égard de la vie privée du télétravailleur (2013)](https://doi.org/10.7202/1017615ar)
+* **+ 221%**
+  - [The Impact of the Epidemic Influenza Canada, 1918-1919 (1977)](https://doi.org/10.7202/030824ar)
+
 
 Les pourcentages d’augmentation présentés ont été calculés à partir des données d’usage de 2019.
 
