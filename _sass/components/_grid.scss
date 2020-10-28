@@ -5,6 +5,11 @@
   > li {
     margin-bottom: $spacing-04;
 
+    strong {
+      display: block;
+      @include typescale-03;
+    }
+
     a {
       display: block;
       padding: $spacing-03 0 0 0;
