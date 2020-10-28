@@ -14,9 +14,13 @@ Conformément à notre mission, nous vous rappelons que plus de 90% des contenus
 
 Érudit a répondu à l’appel du consortium international [ICOLC](https://icolc.net/statement/statement-global-covid-19-pandemic-and-its-impact-library-services-and-resources) au début de la crise de la COVID-19 en offrant la possibilité aux revues diffusées sous embargo (12 mois) sur sa plateforme de lever temporairement leur barrière mobile. Plus de 60 revues ont répondu positivement à cette proposition, et nous sommes très heureux de ce bel élan de solidarité. De nombreux établissements de recherche et d’enseignement fonctionnant toujours à distance durant cette session, nous avons proposé à ces revues de poursuivre cette levée de la barrière mobile jusqu’au 31 décembre 2020.
 
+---
+
 ### Situation de télétravail
 
 Dès la première semaine de confinement, l’équipe d’Érudit a réussi à s’organiser en mode de télétravail, afin de s’engager à ce que tous les services offerts demeurent opérationnels (production numérique, accès aux contenus, administration et gestion, service à la clientèle, etc.). Les équipes de production ont notamment pu accéder à leur poste à distance, par l’entremise d’un VPN, et ainsi poursuivre leur travail sans accuser trop de retard. La gestion des opérations comptables et de facturation a également pu être menée par télétravail sans complication. Les autres membres de l’équipe d’Érudit ont aussi pu s’installer à distance facilement, grâce aux outils et bonnes pratiques de travail déjà implantés (hébergement des fichiers dans les nuages, dossiers partagés, messagerie instantanée, etc.).
+
+---
 
 ### Penser la crise, un article à la fois
 
