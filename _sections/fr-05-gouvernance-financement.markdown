@@ -1,8 +1,9 @@
 ---
 title:  "Gouvernance et financement"
-ref: gouv-financement
+ref: gouvernance
 lang: fr
 order: 05
+bg_pattern: 8
 ---
 
 ### Opérationnalisation des comités de Coalition Publica

@@ -1,0 +1,15 @@
+#gouvernance {
+  @media (min-width: 768px) {
+    hr {
+      margin: $spacing-05 auto;
+      width: 15vw;
+      background-color: $red;
+    }
+
+    h3:nth-of-type(2), p:nth-of-type(4) {
+      text-align: right;
+      margin-right: 0;
+      margin-left: 33.33333%
+    }
+  }
+}

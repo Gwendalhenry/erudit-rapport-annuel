@@ -5,15 +5,22 @@
 
   h2 {
     margin-top: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    @include typescale-06;
+  }
+
+  h3:first-of-type {
+    margin-top: $spacing-02;
   }
 
   ul, ol {
     @include unstyled-list;
   }
 
-  p, ul, ol {
+  h3, h4, p, ul, ol {
     @media (min-width: 1024px) {
-      width: 66.666667%;
+      margin-right: 33.33333%
     }
   }
 

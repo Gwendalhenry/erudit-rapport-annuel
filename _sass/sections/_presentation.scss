@@ -22,9 +22,18 @@
   a {
     background-image: linear-gradient(
       to right,
-      rgba($red, 0.1),
-      rgba($red, 0.7) 4%,
-      rgba($red, 0.3)
+      rgba($pink, 0.1),
+      rgba($pink, 0.7) 4%,
+      rgba($pink, 0.3)
     );
+
+    &:hover, &:active, &:focus {
+      background-image: linear-gradient(
+        to right,
+        rgba($red, 0.1),
+        rgba($red, 0.7) 4%,
+        rgba($red, 0.3)
+      );
+    }
   }
 }

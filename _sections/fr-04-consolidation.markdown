@@ -1,6 +1,6 @@
 ---
 title:  "Consolidation stratégique"
-ref: consolidation-strategique
+ref: consolidation
 lang: fr
 order: 04
 bg_colour: "#FF7101"
