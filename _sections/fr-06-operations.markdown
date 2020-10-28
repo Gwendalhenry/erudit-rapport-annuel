@@ -100,10 +100,14 @@ Nous avons sondé les utilisateurs de la plateforme erudit.org dans l’objectif
 
 Après la compilation et l’analyse des résultats, voici les données clés qui sont ressorties :
 
+{:.grid .grid--3-col}
 * **71%** des utilisateurs considèrent que les collections diffusées sur Érudit sont essentielles ou absolument essentielles pour leurs activités de recherche.
 * **80%** des utilisateurs se déclarent satisfaits ou absolument satisfaits des fonctionnalités de la plateforme.
-* **54%** des utilisateurs consultent erudit.org au moins une fois par semaine, dont **21%** au moins une fois par jour.
-* La répartition de leurs intérêts de recherche est hétérogène&nbsp;: **entre 3 et 10%** des utilisateurs s’intéressent à la même discipline. L’éducation (**11,5%**), la sociologie (**11,2%**), l’histoire (**9,6%**) et l’étude des langues (**6,6%**) sont les disciplines les plus représentées.
+* **54%** des utilisateurs consultent erudit.org au moins une fois par semaine, dont 21% au moins une fois par jour.
+
+La répartition de leurs intérêts de recherche est hétérogène&nbsp;:
+
+* **entre 3 et 10%** des utilisateurs s’intéressent à la même discipline. L’éducation (**11,5%**), la sociologie (**11,2%**), l’histoire (**9,6%**) et l’étude des langues (**6,6%**) sont les disciplines les plus représentées.
 * Les utilisateurs sont des étudiants universitaires (**43%**), des enseignants chercheurs (**25%**), des étudiants au collégial (**6,8%**) et des retraités (**7%**).
 * « Améliorer le moteur de recherche » arrive largement en tête pour les fonctionnalités que les utilisateurs souhaitent voir bonifier.
 
