@@ -20,7 +20,7 @@
     @include unstyled-list;
   }
 
-  h3, h4, p, ul, ol {
+  h3, h4, p {
     @media (min-width: 1024px) {
       margin-right: 33.33333%
     }
@@ -35,8 +35,8 @@
     background-image: linear-gradient(
       to right,
       rgba($mint, 0.1),
-      rgba($yellow, 0.7) 4%,
-      rgba($yellow, 0.3)
+      rgba($mint, 0.7) 4%,
+      rgba($mint, 0.3)
     );
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
@@ -44,9 +44,9 @@
     &:hover, &:active, &:focus {
       background-image: linear-gradient(
         to right,
-        rgba($orange, 0.1),
-        rgba($orange, 0.7) 4%,
-        rgba($orange, 0.3)
+        rgba($yellow, 0.1),
+        rgba($yellow, 0.7) 4%,
+        rgba($yellow, 0.3)
       );
     }
   }

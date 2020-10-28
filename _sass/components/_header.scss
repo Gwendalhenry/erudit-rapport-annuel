@@ -9,6 +9,8 @@
   width: 100%;
   background-color: $ecru;
   transition: top 0.3s;
+  -webkit-box-shadow: 0 3px 5px rgba($black, 0.15);
+  box-shadow: 0 3px 5px rgba($black, 0.15);
 
   &__logo {
     padding-left: 4vw;

@@ -12,9 +12,11 @@
   transition: 0.5s;
   background-color: $yellow;
   text-align: right;
+  -webkit-box-shadow: 0 3px 5px rgba($black, 0.15);
+  box-shadow: 0 3px 5px rgba($black, 0.15);
 
   h2 {
-    margin: $spacing-05 $spacing-03 $spacing-03 $spacing-03;
+    margin: $spacing-04 $spacing-03 $spacing-03 $spacing-03;
     font-size: 1rem;
     font-weight: 600;
   }
@@ -29,7 +31,7 @@
     transition: 0.3s;
 
     @media (min-width: 768px) {
-      @include typescale-03;
+      @include typescale-05;
     }
   }
 

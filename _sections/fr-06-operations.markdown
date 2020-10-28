@@ -14,6 +14,7 @@ divider: 1
 
 22 revues se sont ajoutées aux collections, dont 16 en libre accès immédiat :
 
+{:.grid .grid--4-col}
 * [À bâbord! Revue sociale et politique](https://www.erudit.org/fr/revues/babord/)
 * [Cahiers Société](https://www.erudit.org/fr/revues/cs/)
 * [Canadian Journal of Academic Librarianship / Revue canadienne de bibliothéconomie universitaire](https://www.erudit.org/fr/revues/cjalib)
@@ -53,11 +54,17 @@ Ce travail de développement des collections, associé à la mise en place de la
 
 Également, plusieurs articles traitant de divers aspects de la crise ont connu une hausse importante de leur consultation durant les premières semaines de la crise de la COVID-19, dont voici quelques exemples.
 
-* [SRAS: 1. Le virus](https://id.erudit.org/iderudit/007121ar) (2003) : + 12 559% de consultations
-* [Elles sont partout… les femmes et la ville en temps d’épidémie, Montréal 1918-1920](https://doi.org/10.7202/010973ar) (2005) : + 5 271%
-* [La poursuite d’une bonne mort est-elle une utopie?](https://doi.org/10.7202/017944ar) (2007) : + 1205%
-* [Les défis du télétravail à l’égard de la vie privée du télétravailleur](https://doi.org/10.7202/1017615ar) (2013) : + 929%
-* [The Impact of the Epidemic Influenza Canada, 1918-1919](https://doi.org/10.7202/030824ar) (1977) : + 221%
+{:.grid .grid--5-col}
+* [SRAS: 1. Le virus (2003)](https://id.erudit.org/iderudit/007121ar)
+  * + 12 559% de consultations
+* [Elles sont partout… les femmes et la ville en temps d’épidémie, Montréal 1918-1920 (2005)](https://doi.org/10.7202/010973ar)
+  * + 5 271%
+* [La poursuite d’une bonne mort est-elle une utopie? (2007)](https://doi.org/10.7202/017944ar)
+  * + 1205%
+* [Les défis du télétravail à l’égard de la vie privée du télétravailleur (2013)](https://doi.org/10.7202/1017615ar)
+  * + 929%
+* [The Impact of the Epidemic Influenza Canada, 1918-1919 (1977)](https://doi.org/10.7202/030824ar)
+  * + 221%
 
 Les pourcentages d’augmentation présentés ont été calculés à partir des données d’usage de 2019.
 
@@ -79,8 +86,8 @@ Disponible dans plus de 280 langues, Wikipédia propose plus de 30 millions d’
 
 Depuis 2014, Érudit a établi un fonds de soutien pour le libre accès en collaboration avec 53 bibliothèques universitaires canadiennes, et nous travaillons de façon rapprochée avec les revues dans ce changement de mode de diffusion. Près d'une dizaine de revues diffusées sur Érudit ont déjà réalisé cette transition, et deux nouvelles revues scientifiques historiques viennent d’accomplir ce passage vers le libre accès complet :
 
-* [Scientia Canadensis](https://www.erudit.org/fr/revues/scientia/), publiée depuis 1981.
-* [Santé mentale au Québec](https://www.erudit.org/fr/revues/smq/), publiée depuis 1976.
+* -> [Scientia Canadensis](https://www.erudit.org/fr/revues/scientia/), publiée depuis 1981.
+* -> [Santé mentale au Québec](https://www.erudit.org/fr/revues/smq/), publiée depuis 1976.
 
 ---
 
@@ -88,82 +95,74 @@ Depuis 2014, Érudit a établi un fonds de soutien pour le libre accès en colla
 
 #### Sondage de satisfaction
 
-Nous avons sondé les utilisateurs de la plateforme erudit.org dans l’objectif de mieux comprendre leur appréciation et leur comportement informationnel (sondage mené du 12 novembre au 9 décembre 2019, avec 1 139 répondants).
+Nous avons sondé les utilisateurs de la plateforme erudit.org dans l’objectif de mieux comprendre leur appréciation et leur comportement informationnel (sondage mené du 12 novembre au 9 décembre 2019, avec **1 139** répondants).
 
 Après la compilation et l’analyse des résultats, voici les données clés qui sont ressorties :
-* 71% des utilisateurs considèrent que les collections diffusées sur Érudit sont essentielles ou absolument essentielles pour leurs activités de recherche.
-* 80% des utilisateurs se déclarent satisfaits ou absolument satisfaits des fonctionnalités de la plateforme.
-* 54% des utilisateurs consultent erudit.org au moins une fois par semaine, dont 21% au moins une fois par jour.
-* La répartition de leurs intérêts de recherche est hétérogène : entre 3 et 10% des utilisateurs s’intéressent à la même discipline. L’éducation (11,5%), la sociologie (11,2%), l’histoire (9,6%) et l’étude des langues (6,6%) sont les disciplines les plus représentées.
-* Les utilisateurs sont des étudiants universitaires (43%), des enseignants chercheurs (25%), des étudiants au collégial (6,8%) et des retraités (7%).
+
+* **71%** des utilisateurs considèrent que les collections diffusées sur Érudit sont essentielles ou absolument essentielles pour leurs activités de recherche.
+* **80%** des utilisateurs se déclarent satisfaits ou absolument satisfaits des fonctionnalités de la plateforme.
+* **54%** des utilisateurs consultent erudit.org au moins une fois par semaine, dont **21%** au moins une fois par jour.
+* La répartition de leurs intérêts de recherche est hétérogène&nbsp;: **entre 3 et 10%** des utilisateurs s’intéressent à la même discipline. L’éducation (**11,5%**), la sociologie (**11,2%**), l’histoire (**9,6%**) et l’étude des langues (**6,6%**) sont les disciplines les plus représentées.
+* Les utilisateurs sont des étudiants universitaires (**43%**), des enseignants chercheurs (**25%**), des étudiants au collégial (**6,8%**) et des retraités (**7%**).
 * « Améliorer le moteur de recherche » arrive largement en tête pour les fonctionnalités que les utilisateurs souhaitent voir bonifier.
 
 Ces données nous permettront de mieux adapter nos outils aux besoins de nos usagers.
-
 
 #### Refonte du site À propos
 
 Le site apropos.erudit.org valorise les services et la mission d’Érudit auprès de ses usagers, qu’ils soient responsables de revues, bibliothécaires, étudiants, chercheurs ou simple curieux. Le site, réalisé sous WordPress, a été revu pour améliorer son indexation, favoriser la découverte des contenus et répondre au nouveau style visuel d’Érudit. Il sera mis en ligne dans le courant de l’automne 2020.
 
+---
+
 ### Reconnaissances et prix
 
 Nous tenons ici à souligner plusieurs prix qui ont été remis aux auteurs publiés dans les revues diffusées sur la plateforme erudit.org :
 
-- Prix de l’Association Internationale des études françaises, 2019
+#### Prix de l’Association Internationale des études françaises, 2019
 Louis Laliberté-Bouchard (Université McGill), a reçu le prix 2019 de l’Association Internationale des études françaises pour son article “Le Testament de Philippe Fortin de La Hoguette entre témoignage sur soi-même et témoignage de l’esprit” publié dans la revue Études françaises ([https://doi.org/10.7202/1055651ar](https://doi.org/10.7202/1055651ar)). Il s’agit d’un prix remis à un jeune chercheur pour une première publication « portant sur la littérature française ou sur la langue française ».
-- Prix Hilda Neatby 2020, Société historique du Canada
+
+#### Prix Hilda Neatby 2020, Société historique du Canada
+
 Marilou Tanguay (Université du Québec à Montréal) a reçu le prix Hilda Neatby 2020 de la Société historique du Canada pour son article   “La page féminine du Devoir, un « espace public alternatif » ? Une étude de cas des mécanismes d’exclusion et de contrôle du « féminin » et du « féminisme » dans le quotidien (1965-1975)”. Cet article, publié dans la Revue d’histoire de l’Amérique française et diffusé sur Érudit ([https://doi.org/10.7202/1065044ar](https://doi.org/10.7202/1065044ar)), démontre la complexité d'un genre journalistique associé à une époque, la page féminine, et les manières dont les femmes se sont appropriées cet espace pour se prononcer sur des enjeux sociaux importants.
-- Prix Jean-Cléo Godin 2019, Association canadienne pour la recherche théâtrale
+
+#### Prix Jean-Cléo Godin 2019, Association canadienne pour la recherche théâtrale
+
 Jean-Paul Quéinnec (Université du Québec à Chicoutimi) a reçu le Prix Jean-Cléo Godin 2019 pour son article “De l'informe à la dramaturgie sonore au théâtre: le devenir ouvertement déclassé et enjoué d'une scène sans bord” (L’Annuaire théâtral, numéro 62, automne 2017, p. 95–116. [https://doi.org/10.7202/1052751ar](https://doi.org/10.7202/1052751ar)). Ce prix est remis au meilleur article de langue française portant sur le théâtre article, et est décerné par  l’Association canadienne pour la recherche théâtrale. Son article contribue au décloisonnement des frontières entre théorie et pratique artistique dans le champ de la recherche-création et ouvre aussi de nouvelles perspectives théoriques et épistémologiques.
-- Prix Léon-Dion, 2019
+
+#### Prix Léon-Dion, 2019
+
 L’article “La construction des attitudes envers les Roms : le cas français” ([https://doi.org/10.7202/1043572ar](https://doi.org/10.7202/1043572ar)), rédigé par Audrey Gagnon (Département de science politique, Université Concordia) a obtenu le Prix Léon-Dion, 2019. Cet article observe les mécanismes de construction des attitudes envers les Roms et analyse la production de ces attitudes au sein de deux milieux similaires, mais où les politiques d’intégration locales envers les Roms divergent. Le prix Léon-Dion est décerné, tous les deux ans, à l’auteur.e du meilleur article paru dans la revue Politique et Sociétés.
-- Prix Jean-Paul Brodeur 2019
+
+#### Prix Jean-Paul Brodeur 2019
+
 “Faire entendre sa plainte. Le savoir-faire mobilisé dans la composition des rapports disciplinaires en prison”, rédigé par Esther Danais-Raymond et Dominique Robert (Université Ottawa), a reçu en 2019 le prix Jean-Paul-Brodeur. Ce prix vise à récompenser la meilleure contribution étudiante parue au cours des deux dernières années dans la revue Criminologie. ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1051236ar)
-- Prix Denis-Szabo 2019
+
+#### Prix Denis-Szabo 2019
+
 Le prix Denis-Szabo est décerné tous les deux ans à l’auteur d’un article qui s’est distingué pour son apport à la criminologie et pour la qualité de sa réflexion critique. Il a été remis cette année à Gaëtan Cliquennois (Université de Nantes) pour son article “La jurisprudence de la Cour européenne des droits de l’homme” ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1054236ar).
 
-#### Présentations
+---
 
-##### 2019
+### Présentations
 
-- Avril
-  - Telford, Royaume-Uni
-    - UKSG 2019
-  - Montréal, Canada
-    - Table ronde “Publier ou ne pas exister”
-- Mai
-  - Cambridge, Royaume-Uni
-    - JATS-Con 2019
-  - Cleveland, États-Unis
-    - PyCon US
-  - Vancouver, Canada
-    - PKP Sprint 2019
-  - Vancouver, Canada
-    - CARL Advancing Open
-  - Vancouver, Canada
-    - Library Publishing Forum
-  - Vancouver, Canada
-    - Association canadienne des revues savantes, Congrès annuel des sciences humaines
-- Juin
-  - Marseille, France
-    - International Conference on Electronic Publishing (ElPub)
-- Septembre
-  - Copenhague, Danemark
-    - OASPA Conference on Open Access Scholarly Publishing
-- Octobre
-  - Montréal, Canada
-    - Congrès des professionnel.les de l'information
-  - Montréal, Canada
-    - Présentation dans le cadre du Cours Édition de périodiques, Université de Sherbrooke
-- Novembre
-  - Barcelone, Espagne
-    - PKP Conference
+#### 2019
 
-##### 2020
+| Avril     | Telford, Royaume-Uni   | UKSG 2019                                                                            |
+|           | Montréal, Canada       | Table ronde “Publier ou ne pas exister”                                              |
+| Mai       | Cambridge, Royaume-Uni | JATS-Con 2019                                                                        |
+|           | Cleveland, États-Unis  | PyCon US                                                                             |
+|           | Vancouver, Canada      | PKP Sprint 2019                                                                      |
+|           | Vancouver, Canada      | CARL Advancing Open                                                                  |
+|           | Vancouver, Canada      | Library Publishing Forum                                                             |
+|           | Vancouver, Canada      | Association canadienne des revues savantes, Congrès annuel des sciences humaines     |
+| Juin      | Marseille, France      | International Conference on Electronic Publishing (ElPub)                            |
+| Septembre | Copenhague, Danemark   | OASPA Conference on Open Access Scholarly Publishing                                 |
+| Octobre   | Montréal, Canada       | Congrès des professionnel.les de l’information                                       |
+|           | Montréal, Canada       | Présentation dans le cadre du Cours Édition de périodiques, Université de Sherbrooke |
+| Novembre  | Barcelone, Espagne     | PKP Conference                                                                       |
 
-- Février
-  - Baltimore, États-Unis
-    - NISO Plus Conference 2020
-- Mars
-  - En ligne
-    - Réunion de bibliothèques membres de l'Association des bibliothèques de recherche du Canada
+
+#### 2020
+
+| Février | Baltimore, États-Unis | NISO Plus Conference 2020                                                                  |
+| Mars    | En ligne              | Réunion de bibliothèques membres de l’Association des bibliothèques de recherche du Canada |

@@ -9,6 +9,6 @@ tr:not(:last-child) {
 }
 
 td {
-  padding: $spacing-04 0;
+  padding: $spacing-04 $spacing-03 $spacing-04 0;
   vertical-align: top;
 }
