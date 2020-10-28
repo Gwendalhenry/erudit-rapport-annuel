@@ -107,9 +107,26 @@ Après la compilation et l’analyse des résultats, voici les données clés qu
 
 La répartition de leurs intérêts de recherche est hétérogène&nbsp;:
 
-* **entre 3 et 10%** des utilisateurs s’intéressent à la même discipline. L’éducation (**11,5%**), la sociologie (**11,2%**), l’histoire (**9,6%**) et l’étude des langues (**6,6%**) sont les disciplines les plus représentées.
-* Les utilisateurs sont des étudiants universitaires (**43%**), des enseignants chercheurs (**25%**), des étudiants au collégial (**6,8%**) et des retraités (**7%**).
-* « Améliorer le moteur de recherche » arrive largement en tête pour les fonctionnalités que les utilisateurs souhaitent voir bonifier.
+{:.grid}
+* **entre 3 et 10%** des utilisateurs s’intéressent à la même discipline.
+
+Les disciplines les plus représentées&nbsp;:
+
+{:.grid .grid--4-col}
+* l’éducation **11,5%**
+* la sociologie **11,2%**
+* l’histoire **9,6%**
+* et l’étude des langues. **6,6%**
+
+Les utilisateurs sont&nbsp;:
+
+{:.grid .grid--4-col}
+* des étudiants universitaires **43%**
+* des enseignants chercheurs **25%**
+* des étudiants au collégial **6,8%**
+* et des retraités. **7%**
+
+« **Améliorer le moteur de recherche** » arrive largement en tête pour les fonctionnalités que les utilisateurs souhaitent voir bonifier.
 
 Ces données nous permettront de mieux adapter nos outils aux besoins de nos usagers.
 
@@ -140,11 +157,11 @@ L’article “La construction des attitudes envers les Roms : le cas français�
 
 #### Prix Jean-Paul Brodeur 2019
 
-“Faire entendre sa plainte. Le savoir-faire mobilisé dans la composition des rapports disciplinaires en prison”, rédigé par Esther Danais-Raymond et Dominique Robert (Université Ottawa), a reçu en 2019 le prix Jean-Paul-Brodeur. Ce prix vise à récompenser la meilleure contribution étudiante parue au cours des deux dernières années dans la revue Criminologie. ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1051236ar)
+“Faire entendre sa plainte. Le savoir-faire mobilisé dans la composition des rapports disciplinaires en prison”, rédigé par Esther Danais-Raymond et Dominique Robert (Université Ottawa), a reçu en 2019 le prix Jean-Paul-Brodeur. Ce prix vise à récompenser la meilleure contribution étudiante parue au cours des deux dernières années dans la revue Criminologie. ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1051236ar))
 
 #### Prix Denis-Szabo 2019
 
-Le prix Denis-Szabo est décerné tous les deux ans à l’auteur d’un article qui s’est distingué pour son apport à la criminologie et pour la qualité de sa réflexion critique. Il a été remis cette année à Gaëtan Cliquennois (Université de Nantes) pour son article “La jurisprudence de la Cour européenne des droits de l’homme” ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1054236ar).
+Le prix Denis-Szabo est décerné tous les deux ans à l’auteur d’un article qui s’est distingué pour son apport à la criminologie et pour la qualité de sa réflexion critique. Il a été remis cette année à Gaëtan Cliquennois (Université de Nantes) pour son article “La jurisprudence de la Cour européenne des droits de l’homme” ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1054236ar)).
 
 ---
 

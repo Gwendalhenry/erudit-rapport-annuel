@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 2%;
 
   > li {
     margin-bottom: $spacing-04;
@@ -75,4 +76,25 @@
     }
   }
 
+  // Display in six columns
+  &--6-col {
+    > li {
+      width: 14%;
+
+      @media (max-width: 767px) {
+        width: 31%;
+      }
+    }
+  }
+
+  // Display in eight columns
+  &--8-col {
+    > li {
+      width: 10%;
+
+      @media (max-width: 767px) {
+        width: 23%;
+      }
+    }
+  }
 }

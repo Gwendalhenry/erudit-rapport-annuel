@@ -37,7 +37,15 @@ divider: 1
 
 ### Équipe
 
-* 27 personnes employées.
-* 3 bébés nés dans l’année.
-* 7 chats, 3 chiens, 2 perruches et 2 lapins apparus durant les rencontres en visioconférence.
-* 1 vraie machine à café achetée, qui fait de vrais espresso (mais qui n’aura pas vraiment servi longtemps).
+{:.grid .grid--2-col}
+* **27** personnes employées.
+* **3** bébés nés dans l’année.
+
+{:.grid .grid--4-col}
+* **7** chats
+* **3** chiens
+* **2** perruches et
+* **2** lapins apparus durant les rencontres en visioconférence.
+
+{:.grid}
+* **1** vraie machine à café achetée, qui fait de vrais espresso (mais qui n’aura pas vraiment servi longtemps).
