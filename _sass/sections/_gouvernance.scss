@@ -4,8 +4,7 @@
   }
   @media (min-width: 768px) {
     hr {
-      margin: $spacing-05 auto;
-      width: 15vw;
+      @include short-hr;
     }
 
     // Right-align second block of content
