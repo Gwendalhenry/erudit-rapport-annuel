@@ -23,6 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+  margin-bottom: $spacing-03;
   line-height: 1.05;
   @include font-regular;
 }
@@ -34,10 +35,16 @@ h1 {
 }
 
 h2 {
-  @include typescale-01;
+  margin: 0 0 $spacing-05 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  @include font-bold;
+  @include typescale-04;
 }
 
 h3 {
+  margin-bottom: $spacing-04;
+  letter-spacing: -0.03em;
   @include typescale-02;
 }
 

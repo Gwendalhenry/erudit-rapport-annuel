@@ -25,3 +25,9 @@
   font-weight: 800;
   font-family: 'Maax-Bold', sans-serif;
 }
+
+@mixin align-right {
+  text-align: right;
+  margin-right: 0 !important; // override left align margin
+  margin-left: 33.33333%;
+}

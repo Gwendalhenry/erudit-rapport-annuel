@@ -40,7 +40,9 @@
       >
         <h2>
           {{ section.title }}
-          &bull; <a href="https://github.com/sssoz/erudit-rapport-annuel/edit/main/_sections/{{ page.lang }}-0{{ section.order }}-{{ section.ref }}.markdown">Edit</a>
+          {% comment %}
+            &bull; <a href="https://github.com/sssoz/erudit-rapport-annuel/edit/main/_sections/{{ page.lang }}-0{{ section.order }}-{{ section.ref }}.markdown">Edit</a>
+          {% endcomment %}
         </h2>
         <div class="content">
           {{ section.content }}

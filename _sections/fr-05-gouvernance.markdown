@@ -12,6 +12,7 @@ Coalition Publica bénéficie de l’appui de 3 comités (consultatif, internati
 
 Fait notable, un siège de représentant de Canadian Science Publishing (CSP) a été ajouté au comité consultatif. CSP est l'un des plus importants éditeurs scientifiques au Canada (25 revues). Son inclusion permet d’ouvrir les réflexions et discussions à la réalité des sciences, techniques et médecine (STM), et d’entretenir le dialogue entre les secteurs du savoir. Depuis la réunion du 25 février 2020, Michael Donaldson est membre du comité consultatif de Coalition Publica, à titre de spécialiste du libre accès chez Canadian Science Publishing.
 
+{:.large-text}
 -> [Découvrir la composition des comités](https://www.coalition-publi.ca/communaute)
 
 ---
