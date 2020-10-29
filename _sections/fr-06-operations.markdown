@@ -8,9 +8,7 @@ bg_pattern: 6
 divider: 1
 ---
 
-### Édition numérique
-
-#### Développement de la collection
+### Développement de la collection
 
 22 revues se sont ajoutées aux collections, dont 16 en libre accès immédiat :
 
