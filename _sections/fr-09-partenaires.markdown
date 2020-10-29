@@ -3,10 +3,12 @@ title:  "Nos partenaires"
 ref: partenaires
 lang: fr
 order: 09
+bg_colour: "#EBEBD3"
 ---
 
 ### Universités associées
 
+{:.grid grid--4-col}
 - ![Université de Montréal]({{ site.url }}/img/logo-udem.png)
 - ![Université Laval]({{ site.url }}/img/logo-ulaval.png)
 - ![Université du Québec à Montréal]({{ site.url }}/img/logo-uqam.png)
@@ -15,6 +17,7 @@ order: 09
 
 ### Partenaires
 
+{:.grid grid--4-col}
 - ![Agence universitaire de la Francophonie]({{ site.url }}/img/logo-auf.png)
 - ![Canadian Science Publishing]({{ site.url }}/img/logo-csp.png)
 - ![Centre d’expertise numérique pour la recherche]({{ site.url }}/img/logo-cenr.png)
