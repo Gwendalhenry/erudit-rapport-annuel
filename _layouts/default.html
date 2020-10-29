@@ -10,7 +10,8 @@
     <main id="main">
 
       <header id="cover">
-        <h1>{{ site.title[page.lang] }} <br/><br/>{{ site.subtitle[page.lang] }}</h1>
+        <h1>
+          {{ site.title[page.lang] }} <br/><br/>{{ site.subtitle[page.lang] }}</h1>
       </header>
       <div style="overflow: hidden;">
         {% include svg/post-divider2.svg %}
@@ -39,6 +40,7 @@
       >
         <h2>
           {{ section.title }}
+          &bull; <a href="https://github.com/sssoz/erudit-rapport-annuel/edit/main/_sections/{{ page.lang }}-0{{ section.order }}-{{ section.ref }}.markdown">Edit</a>
         </h2>
         <div class="content">
           {{ section.content }}

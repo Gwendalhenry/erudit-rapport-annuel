@@ -37,7 +37,7 @@ divider: 1
 
 ### Équipe
 
-{:.grid .grid--2-col}
+{:.grid .grid--4-col}
 * **27** personnes employées.
 * **3** bébés nés dans l’année.
 

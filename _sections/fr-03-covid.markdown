@@ -1,6 +1,6 @@
 ---
 title:  "COVID-19"
-ref: covid-19
+ref: covid
 lang: fr
 order: 03
 bg_pattern: 5

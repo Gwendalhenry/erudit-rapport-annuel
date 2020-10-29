@@ -4,12 +4,12 @@
   padding: $spacing-05 4vw;
 
   h2 {
-    margin-top: 0;
+    margin: 0 0 $spacing-05 0;
     font-family: 'Maax-Bold', sans-serif;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    @include typescale-06;
+    @include typescale-04;
   }
 
   h3:first-of-type {

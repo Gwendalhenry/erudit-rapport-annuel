@@ -98,19 +98,19 @@ Depuis 2014, Érudit a établi un fonds de soutien pour le libre accès en colla
 
 Nous avons sondé les utilisateurs de la plateforme erudit.org dans l’objectif de mieux comprendre leur appréciation et leur comportement informationnel (sondage mené du 12 novembre au 9 décembre 2019, avec **1 139** répondants).
 
-Après la compilation et l’analyse des résultats, voici les données clés qui sont ressorties :
+**Après la compilation et l’analyse des résultats, voici les données clés qui sont ressorties :**
 
 {:.grid .grid--3-col}
 * **71%** des utilisateurs considèrent que les collections diffusées sur Érudit sont essentielles ou absolument essentielles pour leurs activités de recherche.
 * **80%** des utilisateurs se déclarent satisfaits ou absolument satisfaits des fonctionnalités de la plateforme.
 * **54%** des utilisateurs consultent erudit.org au moins une fois par semaine, dont 21% au moins une fois par jour.
 
-La répartition de leurs intérêts de recherche est hétérogène&nbsp;:
+**La répartition de leurs intérêts de recherche est hétérogène&nbsp;:**
 
 {:.grid}
 * **entre 3 et 10%** des utilisateurs s’intéressent à la même discipline.
 
-Les disciplines les plus représentées&nbsp;:
+**Les disciplines les plus représentées&nbsp;:**
 
 {:.grid .grid--4-col}
 * l’éducation **11,5%**
@@ -118,7 +118,7 @@ Les disciplines les plus représentées&nbsp;:
 * l’histoire **9,6%**
 * et l’étude des langues. **6,6%**
 
-Les utilisateurs sont&nbsp;:
+**Les utilisateurs sont&nbsp;:**
 
 {:.grid .grid--4-col}
 * des étudiants universitaires **43%**
