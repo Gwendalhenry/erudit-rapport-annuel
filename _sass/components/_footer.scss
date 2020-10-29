@@ -1,3 +1,7 @@
 .footer {
   padding: $spacing-05 4vw;
+
+  ul {
+    @include unstyled-list;
+  }
 }

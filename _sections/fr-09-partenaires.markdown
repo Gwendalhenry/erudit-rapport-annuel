@@ -3,7 +3,6 @@ title:  "Nos partenaires"
 ref: partenaires
 lang: fr
 order: 09
-bg_colour: "#EBEBD3"
 ---
 
 ### Universités associées
