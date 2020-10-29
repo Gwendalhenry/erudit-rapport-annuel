@@ -147,30 +147,24 @@ Nous tenons ici à souligner plusieurs prix qui ont été remis aux auteurs publ
 #### Prix de l’Association Internationale des études françaises, 2019
 Louis Laliberté-Bouchard (Université McGill), a reçu le prix 2019 de l’Association Internationale des études françaises pour son article “Le Testament de Philippe Fortin de La Hoguette entre témoignage sur soi-même et témoignage de l’esprit” publié dans la revue Études françaises ([https://doi.org/10.7202/1055651ar](https://doi.org/10.7202/1055651ar)). Il s’agit d’un prix remis à un jeune chercheur pour une première publication « portant sur la littérature française ou sur la langue française ».
 
-{:.section--right}
 #### Prix Hilda Neatby 2020, Société historique du Canada
 
-{:.section--right}
 Marilou Tanguay (Université du Québec à Montréal) a reçu le prix Hilda Neatby 2020 de la Société historique du Canada pour son article   “La page féminine du Devoir, un « espace public alternatif » ? Une étude de cas des mécanismes d’exclusion et de contrôle du « féminin » et du « féminisme » dans le quotidien (1965-1975)”. Cet article, publié dans la Revue d’histoire de l’Amérique française et diffusé sur Érudit ([https://doi.org/10.7202/1065044ar](https://doi.org/10.7202/1065044ar)), démontre la complexité d'un genre journalistique associé à une époque, la page féminine, et les manières dont les femmes se sont appropriées cet espace pour se prononcer sur des enjeux sociaux importants.
 
 #### Prix Jean-Cléo Godin 2019, Association canadienne pour la recherche théâtrale
 
 Jean-Paul Quéinnec (Université du Québec à Chicoutimi) a reçu le Prix Jean-Cléo Godin 2019 pour son article “De l'informe à la dramaturgie sonore au théâtre: le devenir ouvertement déclassé et enjoué d'une scène sans bord” (L’Annuaire théâtral, numéro 62, automne 2017, p. 95–116. [https://doi.org/10.7202/1052751ar](https://doi.org/10.7202/1052751ar)). Ce prix est remis au meilleur article de langue française portant sur le théâtre article, et est décerné par  l’Association canadienne pour la recherche théâtrale. Son article contribue au décloisonnement des frontières entre théorie et pratique artistique dans le champ de la recherche-création et ouvre aussi de nouvelles perspectives théoriques et épistémologiques.
 
-{:.section--right}
 #### Prix Léon-Dion, 2019
 
-{:.section--right}
 L’article “La construction des attitudes envers les Roms : le cas français” ([https://doi.org/10.7202/1043572ar](https://doi.org/10.7202/1043572ar)), rédigé par Audrey Gagnon (Département de science politique, Université Concordia) a obtenu le Prix Léon-Dion, 2019. Cet article observe les mécanismes de construction des attitudes envers les Roms et analyse la production de ces attitudes au sein de deux milieux similaires, mais où les politiques d’intégration locales envers les Roms divergent. Le prix Léon-Dion est décerné, tous les deux ans, à l’auteur.e du meilleur article paru dans la revue Politique et Sociétés.
 
 #### Prix Jean-Paul Brodeur 2019
 
 “Faire entendre sa plainte. Le savoir-faire mobilisé dans la composition des rapports disciplinaires en prison”, rédigé par Esther Danais-Raymond et Dominique Robert (Université Ottawa), a reçu en 2019 le prix Jean-Paul-Brodeur. Ce prix vise à récompenser la meilleure contribution étudiante parue au cours des deux dernières années dans la revue Criminologie. ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1051236ar))
 
-{:.section--right}
 #### Prix Denis-Szabo 2019
 
-{:.section--right}
 Le prix Denis-Szabo est décerné tous les deux ans à l’auteur d’un article qui s’est distingué pour son apport à la criminologie et pour la qualité de sa réflexion critique. Il a été remis cette année à Gaëtan Cliquennois (Université de Nantes) pour son article “La jurisprudence de la Cour européenne des droits de l’homme” ([https://doi.org/10.7202/1051236ar](https://doi.org/10.7202/1054236ar)).
 
 ---
