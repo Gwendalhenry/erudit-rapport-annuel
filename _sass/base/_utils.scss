@@ -10,3 +10,18 @@
   margin: $spacing-05 auto;
   width: 10vw;
 }
+
+@mixin font-regular {
+  font-weight: 400;
+  font-family: 'Maax-Regular', sans-serif;
+}
+
+@mixin font-medium {
+  font-weight: 600;
+  font-family: 'Maax-Medium', sans-serif;
+}
+
+@mixin font-bold {
+  font-weight: 800;
+  font-family: 'Maax-Bold', sans-serif;
+}

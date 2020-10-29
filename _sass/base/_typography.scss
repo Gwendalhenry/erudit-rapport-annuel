@@ -18,14 +18,13 @@ body {
   line-height: 1.45;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-family: 'Maax-Regular', sans-serif;
+  @include font-regular;
   color: $black;
 }
 
 h1, h2, h3, h4, h5, h6 {
   line-height: 1.05;
-  font-weight: 400;
+  @include font-regular;
 }
 
 h1 {

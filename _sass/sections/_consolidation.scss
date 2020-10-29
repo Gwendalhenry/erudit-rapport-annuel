@@ -13,7 +13,7 @@
 
   td:first-child {
     width: 50%;
-    font-weight: 700;
+    @include font-bold;
   }
 
   .content {
