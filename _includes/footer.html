@@ -1,44 +1,24 @@
-<footer id="footer">
+<footer class="footer">
 
-  <div class="container">
+  <h3 class="text-large">{{ site.tagline[page.lang] }}</h3>
 
-    <div class="row">
-
-      <div class="col-sm-6">
-        <h2 class="text-lg">{{ site.tagline[page.lang] }}</h2>
-      </div>
-
-      <div class="col-sm-6">
-
-        <div class="row">
-
-          <ul class="text-sm col-sm-6">
-            <li>
-              <a href="{{ site.about_url[page.lang] }}" target="_blank">{{ site.about[page.lang] }}</a>
-            </li>
-            <li>
-              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </li>
-          </ul>
-
-          <ul class="text-sm col-sm-6">
-            <li>
-              <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">Facebook</a>
-            </li>
-            <li>
-              <a href="https://github.com/{{ site.github_username }}" target="_blank">Github</a>
-            </li>
-          </ul>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
+  <ul class="grid grid--5-col">
+    <li>
+      <a href="{{ site.about_url[page.lang] }}" target="_blank">{{ site.about[page.lang] }}</a>
+    </li>
+    <li>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </li>
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">Twitter</a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">Facebook</a>
+    </li>
+    <li>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">Github</a>
+    </li>
+  </ul>
 
 </footer>
 
