@@ -80,5 +80,5 @@ ul, ol {
 }
 
 strong, b {
-  font-family: 'Maax-Bold';
+  @include font-bold;
 }
