@@ -11,9 +11,9 @@ divider: 1
 
 {:.grid .grid--3-col}
 * **209 493** articles de revues disponibles
-  * dont **10 299** articles qui ont été mis en ligne cette année
+  * dont 10 299 articles qui ont été mis en ligne cette année
 * **241** revues savantes et culturelles diffusées
-  * dont **22** revues qui ont rejoint la plateforme
+  * dont 22 revues qui ont rejoint la plateforme
 * **6** corpus de données disponibles à des fins de fouille textuelle via notre dépôt de recherche.
 
 ### Libre accès
@@ -37,15 +37,10 @@ divider: 1
 
 ### Équipe
 
-{:.grid .grid--4-col}
+{:.grid .grid--3-col}
 * **27** personnes employées.
 * **3** bébés nés dans l’année.
-
-{:.grid .grid--4-col}
-* **7** chats
-* **3** chiens
-* **2** perruches et
-* **2** lapins apparus durant les rencontres en visioconférence.
+* **7** chats, 3 chiens, 2 perruches et 2 lapins apparus durant les rencontres en visioconférence.
 
 {:.grid}
 * **1** vraie machine à café achetée, qui fait de vrais espresso (mais qui n’aura pas vraiment servi longtemps).
